@@ -1,4 +1,4 @@
-# laravel-docker-template
+
 # お問い合わせフォーム  
 
 ## 環境構築 
@@ -20,8 +20,9 @@ Laravel 8.83.8
 MySQL 8.0.26  
 
 ## ER図  
-< - - - 作成したER図の画像 - - - >  
-  
+
+  <img width="618" height="1081" alt="er drawio" src="https://github.com/user-attachments/assets/736bf3b0-eb28-4937-a76c-80afa175cd64" />
+
 ## URL  
 
 開発環境：http://localhost/  
