@@ -29,7 +29,7 @@
                 <h2>Admin</h2>
             </div>
 
-            <form method="GET" action="{{ route('admin.index') }}" class="search-bar">
+            <form method="GET" action="{{ route('admin.') }}" class="search-bar">
                 <input type="text" name="keyword" placeholder="名前やメールアドレスを入力してください">
 
                 <select name="gender">
@@ -59,7 +59,7 @@
 
                 <div class="date__button">
                     <button class="button_search" type="submit">検索</button>
-                    < <a href="{{ route('admin.index') }}" class="button_reset">リセット</>
+                    <a href="{{ route('admin.index') }}" class="button_reset">リセット</a>
                 </div>
                 <div id="pagination" class="pagination"></div>
             </form>

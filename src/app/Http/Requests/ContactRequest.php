@@ -26,7 +26,7 @@ class ContactRequest extends FormRequest
         return [
             'first_name' => 'required',
             'last_name'  => 'required',
-            'gender'     => 'required',
+            'gender'     => 'required|in:男性,女性,その他',
             'email'      => 'required|email',
             'tel1'       => 'required',
             'tel2'       => 'required',

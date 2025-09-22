@@ -14,7 +14,7 @@
             <p>お問い合わせありがとうございました</p>
         </div>
         <div>
-            <a class="button-home" href="contact.blade.php"> HOME</a>
+            <a class="button-home" href="{{ route('contact') }}"> HOME</a>
         </div>
     </main>
 </body>

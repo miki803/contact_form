@@ -31,7 +31,7 @@ class CreateContactsTable extends Migration
         });
     }
 
-}
+
     /**
      * Reverse the migrations.
      *
@@ -40,4 +40,5 @@ class CreateContactsTable extends Migration
     public function down()
     {
         Schema::dropIfExists('contacts') ;
+    }
 }
