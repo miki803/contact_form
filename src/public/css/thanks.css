@@ -1,0 +1,31 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.title p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.button-home {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #4d3d32;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button-home:hover {
+    background-color: #6b5242;
+}
